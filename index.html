@@ -1,0 +1,85 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller PIN</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header__conteiner">
+        <nav class="nav__conteiner">
+            <div class="link__conteiner">
+                <a class="nav__link" href="#nosotros">Nosotros</a>
+                <a class="nav__link" href="#productos">Productos</a>
+                <a class="nav__link" href="#contacto">Contacto</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="main__conteiner conteiner">
+        <h1 class="">Bienvenido landing 2023</h1>
+<!--Sección 1 - Button -->
+        <section class="main__section">
+            <div class="nosotros__conteiner" id="nosotros">
+                <h2 class="nosotros__h2">
+                    Sobre Nosotros
+                </h2>
+                <p class="nosotros__p">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, hic tenetur. Assumenda, suscipit porro soluta minima cum autem. Asperiores delectus officiis libero. 
+                Praesentium ab, repellendus odit reiciendis voluptatibus iste dolores?
+                </p>
+                <a href="#contacto" class="button-contacto">Contactanos</a>
+            </div>
+        </section>
+<!--Sección 2 - Cards-->
+        <section class="main__section">
+            <div class="productos__conteiner" id="productos">
+                <h2 class="productos__h2">
+                    Nuestros Productos
+                </h2>
+                <div class="prooductos__cards">
+                    <div class="cards__compra">
+                        <h3 class="cards__h3">Producto 1</h3>
+                        <p class="cards__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <img src="https://picsum.photos/id/237/200/300" alt="producto-1">
+                        <button class="cards__button">Comprar</button>
+                    </div>
+
+                    <div class="cards__compra">
+                        <h3 class="cards__h3">Producto 2</h3>
+                        <p class="cards__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <img src="https://picsum.photos/id/237/200/300" alt="producto-2">
+                        <button  class="cards__button">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
+
+    <!--Sección 3 - Formulario-->
+    <footer class="footer__conteiner conteiner" id="contacto">
+        <h3 class="footer__h3">Contáctenos</h3>
+        <div class="formm__conteiner" >
+            <form action="enviar.php" method="post">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form__input" placeholder="Ingrese el Nombre" required>
+                </div>
+                <div>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" class="form__input" placeholder="Ingrese el Apellido" required>
+                </div>
+
+                <div>
+                    <label for="apellido">Email:</label>
+                    <input type="email" class="form__input" placeholder="Ingrese el Email" required>
+                </div>
+                <input type="submit" class="button__enviar" value="Enviar">
+            </form>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #efefef; /*Color de fondo*/
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/*HEADER*/
+.header__conteiner{
+    background-color: #333;
+    padding:40px;
+}
+
+/*NAV*/
+.nav__conteiner{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav__link{
+    margin:0 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.nav__link:hover{
+    border-bottom: 1px solid greenyellow;
+    color: greenyellow;
+}
+
+/*MAIN*/
+.main__section{
+    padding: 40px 0;
+    text-align: center;
+
+}
+.main__section h2{
+ font-size: 24px;
+ margin-bottom: 20px;
+}
+
+.prooductos__cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.cards__compra{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.cards__compra img{
+    border-radius: 5px;
+    width: 300px;
+}
+.prooductos__cards button{
+    width: 114px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.footer__conteiner{
+    background-color: #333;
+}
+.footer__conteiner h3{
+    background-color: #333;
+    text-align: center;
+}
+.formm__conteiner{
+    color: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.form__input{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.form__input::placeholder{
+    color: #007bff;
+}
+.button__enviar{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
